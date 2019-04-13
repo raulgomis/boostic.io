@@ -21,15 +21,15 @@ h6 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/bg-map.png") no-repeat center center;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
 }
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: darkblue;
   height: 100%;
   width: 100%;
   top: 0;
@@ -67,8 +67,12 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.features-icons .h3, .features-icons h3 {
+  font-size: 1.5rem;
 }
 
 .features-icons .features-icons-item {
@@ -105,10 +109,10 @@ header.masthead h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/bg-map.png") no-repeat center center;
   background-size: cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
 }
 
 .call-to-action .overlay {

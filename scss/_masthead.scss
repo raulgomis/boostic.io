@@ -1,13 +1,13 @@
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background: url('../img/bg-map.png') no-repeat center center;
   @include background-cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
   .overlay {
     position: absolute;
-    background-color: $gray-900;
+    background-color: darkblue;
     height: 100%;
     width: 100%;
     top: 0;

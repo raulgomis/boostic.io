@@ -1,6 +1,11 @@
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+
+  .h3, h3 {
+    font-size: 1.5rem;
+  }
+
   .features-icons-item {
     max-width: 20rem;
     .features-icons-icon {
